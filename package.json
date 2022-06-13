@@ -8,5 +8,14 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "got": "^12.1.0",
+    "request": "^2.88.2",
+    "uniqid": "^5.4.0",
+    "validator": "^13.7.0",
+    "yargs": "^17.5.1"
+  }
 }
