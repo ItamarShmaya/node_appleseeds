@@ -3,7 +3,7 @@ import validator from "validator";
 
 mongoose.connect("mongodb://127.0.0.1:27017/e-commerce-site");
 
-const Product = mongoose.model("Product", {
+export const Product = mongoose.model("Product", {
   name: {
     type: String,
     required: true,
@@ -91,4 +91,4 @@ const newProduct3 = new Product({
 //   .catch((e) => console.log(e));
 
 // Product.create(newProduct1, newProduct2, newProduct3);
-Product.collection.insertMany([newProduct1, newProduct2, newProduct3]);
+// Product.collection.insertMany([newProduct1, newProduct2, newProduct3]);
